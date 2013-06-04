@@ -35,12 +35,12 @@ Command line arguments:
 
 Command line arguments:
 
-    --rows, -r <int>:     Number of rows
-    --cols, -c <int>:     Number of collumns
-    --file, -f <string>:  Output file
-    --large, -l:          Use 25mm base size instead of 20mm
-    --version, -v:        Print version and exit
-    --help, -h:           Show help message
+    --rows,     -r <int>:     Number of rows
+    --cols,     -c <int>:     Number of collumns
+    --file,     -f <string>:  Output file
+    --large,    -l:           Use 25mm base size instead of 20mm
+    --version,  -v:           Print version and exit
+    --help,     -h:           Show help message
 
 Dependencies
 ------------

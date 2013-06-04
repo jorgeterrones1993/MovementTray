@@ -42,6 +42,13 @@ Command line arguments:
     --version,  -v:           Print version and exit
     --help,     -h:           Show help message
 
+TODO
+----
+
+* 50mm monstrous bases (Ogre kingdoms, etc..)
+* 25x50 mm Cavalry bases (knights, etc)
+* 20 mm skirmish formation
+
 Dependencies
 ------------
 

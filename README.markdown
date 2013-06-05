@@ -31,22 +31,26 @@ Usage:
 The above will generate a 5x5 tray using 20mm bases and save it into
 file named tray.pdf in the current directory.
 
-Command line arguments:
+Note: the tray must fit on a single letter paper (8x11") sheet of paper.
+There are following limitations with respect to unit size:
+
+    Standard 20mm units:    10 rows x 10 cols
+    Large 25mm units:       8 rows x 8 cols
+    Monster 50mm units:     4 rows x 4 cols
+    Cavalry 20x50mm units:  4 rows x 10 cols
 
 Command line arguments:
 
     --rows,     -r <int>:     Number of rows
     --cols,     -c <int>:     Number of collumns
     --file,     -f <string>:  Output file
-    --large,    -l:           Use 25mm base size instead of 20mm
+    --base,     -b:           Base size: standard, large, monster, cavalry
     --version,  -v:           Print version and exit
     --help,     -h:           Show help message
 
 TODO
 ----
 
-* 50mm monstrous bases (Ogre kingdoms, etc..)
-* 25x50 mm Cavalry bases (knights, etc)
 * 20 mm skirmish formation
 
 Dependencies

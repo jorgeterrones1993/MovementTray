@@ -43,8 +43,8 @@ There are following limitations with respect to unit size:
 
     Standard 20mm units:    10 rows x 10 cols
     Large 25mm units:       8 rows x 8 cols
-    Monster 50mm units:     4 rows x 4 cols
-    Cavalry 20x50mm units:  4 rows x 10 cols
+    Monster 40mm units:     4 rows x 4 cols
+    Cavalry 25x50mm units:  4 rows x 8 cols
 
 This tool accepts the following command line arguments:
 

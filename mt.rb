@@ -63,13 +63,13 @@ There are following limitations with respect to unit size:
 
     Standard 20mm units:    10 rows x 10 cols
     Large 25mm units:       8 rows x 8 cols
-    Monster 50mm units:     4 rows x 4 cols
-    Cavalry 20x50mm units:  4 rows x 10 cols
+    Monster 40mm units:     4 rows x 4 cols
+    Cavalry 25x50mm units:  4 rows x 8 cols
 
 Command line arguments:
     
     EOS
-    opt :base, "Base size: standard (20mm), large (25mm), monster (50mm), cavalry (20x50mm)", :short => "-b", :default => "standard"
+    opt :base, "Base size: standard (20mm), large (25mm), monster (40mm), cavalry (25x50mm)", :short => "-b", :default => "standard"
     opt :rows, "Number of rows", :short => "-r", :type => :int, :required => true
     opt :cols, "Number of collumns", :short => "-c", :type => :int, :required => true
     opt :file, "Output file", :short => "-f", :type => :string, :required => true
@@ -92,13 +92,13 @@ when "large"
     r_max = 8
     c_max = 8
 when "monster"
-    base = [50, 50]
+    base = [40, 40]
     r_max = 4
     c_max = 4
 when "cavalry"
-    base = [20, 50]
+    base = [25, 50]
     r_max = 4
-    c_max = 10
+    c_max = 8
 else
     Trollop::die :base, "must be standard, large, monster or cavalry"
 end

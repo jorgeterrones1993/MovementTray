@@ -25,21 +25,28 @@ want to have in your unit. Use the --large switch to use the larger
 25mm bases (the default is 20mm).
 
 Usage:
-    
+
     mt.rb --rows 5 --cols 5 --file tray.pdf
 
 The above will generate a 5x5 tray using 20mm bases and save it into
 file named tray.pdf in the current directory.
 
-Note: the tray must fit on a single letter paper (8x11") sheet of paper.
+You can also use short command switches:
+
+    mt.rb -r 2 -c 5 -b -f tray.pdf -b cavalry
+    
+The above will generate a tray using 20x50mm cavalry bases with 2 ranks
+and 5 models per rank.
+
+Note: the tray must fit on a single sheer of standard 8x11" letter paper.
 There are following limitations with respect to unit size:
 
     Standard 20mm units:    10 rows x 10 cols
     Large 25mm units:       8 rows x 8 cols
-    Monster 50mm units:     4 rows x 4 cols
-    Cavalry 20x50mm units:  4 rows x 10 cols
+    Monster 40mm units:     4 rows x 4 cols
+    Cavalry 25x50mm units:  4 rows x 8 cols
 
-Command line arguments:
+This tool accepts the following command line arguments:
 
     --rows,     -r <int>:     Number of rows
     --cols,     -c <int>:     Number of collumns
@@ -47,6 +54,9 @@ Command line arguments:
     --base,     -b:           Base size: standard, large, monster, cavalry
     --version,  -v:           Print version and exit
     --help,     -h:           Show help message
+    
+The `--rows`, `--cols` and `--file` switches are required. The `--base` 
+switch is optional. If ommited it defaults to `standard` 20x20mm bases.
 
 TODO
 ----

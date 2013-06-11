@@ -29,10 +29,10 @@ def generateMovementTray(rows, cols, filename, base)
                 pdf.rectangle [x,y], base[0].mm, base[1].mm
             end
 
-            x += base[0].mm
+            x += base[0].mm + 1.mm
         end
         x = 0
-        y += base[1].mm
+        y += base[1].mm + 1.mm
     end
 
     pdf.render_file filename

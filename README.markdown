@@ -15,7 +15,7 @@ out a tray of the right size.
 
 The tray is generated as a PDF file that will look approximately like this:
 
-![Sample Output](http://i.imgur.com/o90jRnv.png)
+![Sample Output](http://i.imgur.com/xiF3QVp.jpg)
 
 Usage
 -----
